@@ -5,8 +5,8 @@ const age = prompt('inserire la sua età');
 const distance = prompt('inserire la distanza da percorrere (in km)');
 
 // TRASFORMO IN NUMERO LE STRINGHE (DATI DEI PROMPT)
-console.log(+age);
-console.log(+distance);
+console.log('età inserita ' + +age);
+console.log('distanza da percorrere in km ' + +distance);
 
 // CALCOLO IL PREZZO DEL BIGLIETTO
 const ticket= distance*0.21;
