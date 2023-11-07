@@ -23,5 +23,5 @@ else if(+age >= '65'){
 }
 // condizione nessuno sconto
 else{
-    console.log('il prezzo del biglietto è ' + ticket + ' €');
+    console.log('il prezzo del biglietto è ' + ticket.toFixed(2) + ' €');
 }
